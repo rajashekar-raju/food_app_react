@@ -1,0 +1,46 @@
+{
+  "name": "recat-props",
+  "version": "1.0.0",
+  "description": "iam learning props",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajashekar-raju/react-stage2.git"
+  },
+  "keywords": [
+    "props"
+  ],
+  "author": "Rajashekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajashekar-raju/react-stage2/issues"
+  },
+  "homepage": "https://github.com/rajashekar-raju/react-stage2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.0",
+    "babel-jest": "^29.7.0",
+    "buffer": "^6.0.3",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "parcel": "^2.10.2",
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.5"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "axios": "^1.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.18.0"
+  }
+}
